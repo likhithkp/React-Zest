@@ -46,8 +46,7 @@ const Tabs = (props) => {
             setTabData(res)
             props.setLoader(false)
         })
-    })
-
+    }, [props, tabLabel])
 
     return (
         <div className="container">

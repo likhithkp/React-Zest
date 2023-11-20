@@ -21,7 +21,7 @@ const RecipeList = (props) => {
         setData(res)
         props.setLoader(false)
     })
-  }, [])
+  }, [props, query])
 
   return (
     <div className='container'>
@@ -33,7 +33,7 @@ const RecipeList = (props) => {
                 value={searchedRecipe} 
                 type="text" 
                 placeholder='Search your recipe' />
-                <button onClick={() => (searchRecipe(searchedRecipe), props.setLoader(true))} ><BsSearch /></button>
+                <button onClick={() => (searchRecipe(searchedRecipe))} ><BsSearch /></button>
             </div> 
         </div>
         <div className='flexbox'>
