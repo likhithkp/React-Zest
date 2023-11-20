@@ -1,4 +1,6 @@
+@import './media.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rokkitt:wght@700&display=swap');
+
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -55,19 +57,27 @@ p{
   }
 
   .header-text{
-    padding: 100px;
+    padding-top: 100px;
     padding-bottom: 125px;
     text-align: center;
     
     h1{
       color:white;
       margin-bottom: 15px;
-      font-size: 45px;
+      font-size: 35px;
+
+      @include medium{
+        font-size: 45px;
+      }
+
     }
 
     p{
-      font-size: 24px;
+      font-size: 18px;
       color: white;
+      @include medium{
+        font-size: 24px;
+      }
     }
   }
 }
@@ -87,7 +97,7 @@ p{
   
   .tablist {
     width: 140px;
-    height: 120px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,12 +106,26 @@ p{
     position: relative;
     cursor: pointer;
 
+    @include medium{
+      height: 100px;
+    }
+
+    @include default{
+      height: 120px;
+    }
+
     svg{
-      font-size: 50px;
+      font-size: 35px;
+      @include medium{
+        font-size: 50px;
+      }
     }
 
     span{
-      font-size: 18px;
+      font-size: 14px;
+      @include medium{
+        font-size: 18px;
+      }
     }
 
     &.active{
@@ -118,10 +142,17 @@ p{
       &::after{
         position: absolute;
         content: '';
-        border-top: 20px solid #6fcb9f;
-        border-left: 15px solid transparent;
-        border-right:15px solid transparent;
-        bottom: -20px;
+        border-top: 15px solid #6fcb9f;
+        border-left: 10px solid transparent;
+        border-right:10px solid transparent;
+        bottom: -15px;
+
+        @include medium{
+          border-top: 20px solid #6fcb9f;
+          border-left: 15px solid transparent;
+          border-right:15px solid transparent;
+          bottom: -20px;
+        }
       }
     }
   }
@@ -129,13 +160,21 @@ p{
 
 .recipe_banner{
   background-color: #29336b;
-  padding: 60px 40px;
+  padding: 20px;
   color: white;
   display: flex;
   margin-bottom: 70px;
+  flex-direction: column-reverse;
+
+  @include medium {
+    flex-direction: row;
+    padding: 60px 40px;
+  }
 
   .left-col{
-    width: 50%;
+    @include medium{
+      width: 50%;
+    }
 
     .badge{
       background-color: #6fcb9f;
@@ -177,10 +216,14 @@ p{
         list-style: none;
 
         li{
-          width: calc(50% - 20px);
           display: flex;
-          align-items: center;
           font-size: 18px;
+          margin-bottom: 10px;
+          
+          @include medium {
+            width: calc(50% - 20px);
+            margin-bottom: 10px;
+          }
 
           svg{
             font-size: 18px;
@@ -195,21 +238,30 @@ p{
   }
 
   .right-col{
-    width: 50%;
-    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    @include medium{
+      padding-top: 50px;
+      width: 50%;
+    }
 
     .image-wrapper{
-      width: 350px;
-      height: 350px;
+      width: 100%;
+      height: 280px; 
+      margin-bottom: 30px;
+      @include medium{
+        width: 350px;
+        height: 350px; 
+      }
 
       img{
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 100%;
+        @include medium{
+          border-radius: 100%;
+        }
       }
     }
   }
@@ -218,14 +270,18 @@ p{
 //RecipeList.jsx styling
 .heading-line {
   padding: 10px 0;
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
   margin-bottom: 50px;
   color: #6fcb9f;
 
+  @include medium {
+    font-size: 45px;
+  }
+
   .input-wrapper{
     display: flex;
-    width: 80%;
+    width: 100%;
     padding: 20px;
     justify-content: center;
     margin: 0 auto;
@@ -270,7 +326,16 @@ p{
     border-radius: 6px;
     overflow: hidden;
     text-align: center;
-    width: calc(100% / 4 - 20px);
+    margin-bottom: 20px;
+    width: 100%;
+
+    @include small{
+      width: calc(100% / 2 - 20px);
+    }
+
+    @include default{
+      width: calc(100% / 4 - 20px);
+    }
 
     .img-wrapper{
       margin-bottom: 10px;

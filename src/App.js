@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="main">
       <Header/>
-      <Tabs/>
+      <Tabs setLoader={setLoader}/>
       <RecipeList setLoader={setLoader}/>
       {loader && <div className='loader'>
         <div className='spinner'></div>
