@@ -6,13 +6,13 @@
 
 ## Screenshots
 
-![Screenshot (45)](https://github.com/likhithkp/React-Zest/assets/88890448/40dc6be8-4634-47ca-ab1b-e1dd91347bda)
-![Screenshot (46)](https://github.com/likhithkp/React-Zest/assets/88890448/27f2fd14-b8c6-497a-afd4-a4b9455990dc)
-![Screenshot (47)](https://github.com/likhithkp/React-Zest/assets/88890448/aac4ae97-46d8-4f28-b65a-4e576f9c9e26)
-![Screenshot (48)](https://github.com/likhithkp/React-Zest/assets/88890448/fb5d6be9-48a1-4e5d-83e6-1b78f26b9352)
-![Screenshot (49)](https://github.com/likhithkp/React-Zest/assets/88890448/94276cb1-f4aa-41c9-a77a-b05d7acd5a0c)
-![Screenshot (50)](https://github.com/likhithkp/React-Zest/assets/88890448/e513e7d1-3bb1-4f0a-9f17-9fd895bbef7a)
-![Screenshot (51)](https://github.com/likhithkp/React-Zest/assets/88890448/6bf4505f-cbe4-478b-871e-0700d07cf9fa)
+![Screenshot (45)](https://github.com/likhithkp/React-Zest/assets/88890448/c3aa4055-dec0-4554-b8b9-81bae5c7d633)
+![Screenshot (46)](https://github.com/likhithkp/React-Zest/assets/88890448/7d0651cf-12e8-4cdc-a118-3028316b2227)
+![Screenshot (47)](https://github.com/likhithkp/React-Zest/assets/88890448/85ca5a15-e1f6-4560-aa4a-899810f5335f)
+![Screenshot (48)](https://github.com/likhithkp/React-Zest/assets/88890448/7a32bdca-f63f-4c5f-a545-6fc8f5f22be5)
+![Screenshot (49)](https://github.com/likhithkp/React-Zest/assets/88890448/7c6eb3c7-806e-4281-a902-73d2286cb006)
+![Screenshot (50)](https://github.com/likhithkp/React-Zest/assets/88890448/e6055608-e723-40f1-b1d7-548acb00bf1f)
+![Screenshot (51)](https://github.com/likhithkp/React-Zest/assets/88890448/79824893-cb45-4580-91f2-2b50ed9a891e)
 
 ## Features
 
