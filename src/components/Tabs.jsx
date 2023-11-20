@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {CiPizza} from 'react-icons/ci'
 import {GiFruitBowl , GiNoodles,GiCheckMark} from 'react-icons/gi'
 import {MdOutlineIcecream} from 'react-icons/md'
-import {fetchData,  fetchTabData } from '../service'
+import { fetchTabData } from '../service'
 
 
 const Tabs = (props) => {
@@ -39,13 +39,14 @@ const Tabs = (props) => {
             props.setLoader(false)
         })
     }
+
     useEffect(() => {
         fetchTabData(tabLabel[0].id)
         .then((res) => {
             setTabData(res)
             props.setLoader(false)
         })
-    }, [])
+    })
 
 
     return (
@@ -53,7 +54,7 @@ const Tabs = (props) => {
         <h1 className='recipeHeading'>Top choices!</h1>
         <div className="tabs">
             {tabLabel.map((item, index) => (
-                <div onClick={() => (handleClick(item.name, item.id), props.setLoader(true))} key={index} className={`tablist ${active === item.name ? 'active' : ""}`}>
+                <div onClick={() => (handleClick(item.name, item.id))} key={index} className={`tablist ${active === item.name ? 'active' : ""}`}>
                     {item.icon}
                     <span>{item.name}</span>
                 </div>
