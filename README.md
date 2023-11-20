@@ -2,7 +2,7 @@
 
 ## Description
 
-Zest Recipe App is a web application developed from scratch using ReactJS, SASS for styling, and the Edamam API for fetching recipe data. This project demonstrates building a dynamic and interactive recipe platform. The app allows users to browse, search, and view recipes, leveraging the power of React hooks and the transmission of data through props.
+  Zest Recipe App is a web application developed from scratch using ReactJS, SASS for styling, and the Edamam API for fetching recipe data. This project demonstrates building a dynamic and interactive recipe platform. The app allows users to browse, search, and view recipes, leveraging the power of React hooks and the transmission of data through props.
 
 ## Features
 
@@ -19,7 +19,6 @@ Zest Recipe App is a web application developed from scratch using ReactJS, SASS 
 - ReactJS
 - SASS
 - Edamam API
-- [Additional libraries or tools used, if any]
 
 ## Installation
 
@@ -43,18 +42,10 @@ If you'd like to contribute to the project, please follow these steps:
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contact
 
-If you have any questions or suggestions, feel free to contact:
-
-- [Likhith K.P.](mailto:likhithkpnet@gmail.com)
-
+If you have any questions or suggestions, feel free to contact me `likhithkpnet@gmail.com`
 
 ## Acknowledgements
 
-- Special thanks to Edamam for providing the recipe data API
-- [Any credits or acknowledgements for external libraries, resources, etc.]
+- Thanks to Edamam for providing the recipe data API
