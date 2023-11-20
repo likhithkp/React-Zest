@@ -5,7 +5,7 @@ import { fetchData } from '../service';
 const RecipeList = (props) => {
 
   const [searchedRecipe, setSearchedRecipe] = useState('');
-  const [query, setQuery] = useState('Indian');
+  const [query, setQuery] = useState('Indian');// eslint-disable-next-line
   const [data, setData] = useState('');
 
     const searchRecipe = (inputRecipe) => {

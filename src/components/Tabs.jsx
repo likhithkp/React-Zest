@@ -8,7 +8,7 @@ import { fetchTabData } from '../service'
 const Tabs = (props) => {
     const [active, setActive] = useState('Pizza')
     const [tabData, setTabData] = useState('')
-    const [tabLabel, setTabLabel] = useState([
+    const [tabLabel, setTabLabel] = useState([ // eslint-disable-next-line
         {
             name: 'Pizza',
             icon: <CiPizza/>, 
