@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/688621ff-0226-40ef-b0dd-81545099d36a/deploy-status)](https://app.netlify.com/sites/zest99/deploys)
 # Zest Recipe App
 
 ## Description
